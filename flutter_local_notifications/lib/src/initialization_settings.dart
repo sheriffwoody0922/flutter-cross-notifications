@@ -29,6 +29,10 @@ class InitializationSettings {
   ///
   /// It is nullable, because we don't want to force users to specify settings
   /// for platforms that they don't target.
+   /// Settings for macOS.
+  ///
+  /// It is nullable, because we don't want to force users to specify settings
+  /// for platforms that they don't target.
   final DarwinInitializationSettings? macOS;
 
   /// Settings for Linux.
